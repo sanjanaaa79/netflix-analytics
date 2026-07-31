@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-07-30T21:02:28Z",
+  "kpis": {
+    "totalTitles": 25,
+    "movies": 15,
+    "tvShows": 10,
+    "countries": 12,
+    "genres": 19,
+    "totalViewsMillions": 447.7,
+    "avgCompletionRate": 0.72,
+    "avgMovieDurationMinutes": 109.2,
+    "avgTvSeasons": 2.4
+  },
+  "contentType": [
+    {
+      "name": "Movie",
+      "count": 15
+    },
+    {
+      "name": "TV Show",
+      "count": 10
+    }
+  ],
+  "genres": [
+    {
+      "name": "Drama",
+      "count": 9
+    },
+    {
+      "name": "Thriller",
+      "count": 4
+    },
+    {
+      "name": "Romance",
+      "count": 4
+    },
+    {
+      "name": "Mystery",
+      "count": 4
+    },
+    {
+      "name": "Sci-Fi",
+      "count": 3
+    },
+    {
+      "name": "Crime",
+      "count": 3
+    },
+    {
+      "name": "Comedy",
+      "count": 3
+    },
+    {
+      "name": "Action",
+      "count": 3
+    },
+    {
+      "name": "Fantasy",
+      "count": 2
+    },
+    {
+      "name": "Documentary",
+      "count": 2
+    }
+  ],
+  "countries": [
+    {
+      "name": "United States",
+      "count": 5
+    },
+    {
+      "name": "India",
+      "count": 3
+    },
+    {
+      "name": "United Kingdom",
+      "count": 2
+    },
+    {
+      "name": "Canada",
+      "count": 2
+    },
+    {
+      "name": "Japan",
+      "count": 2
+    },
+    {
+      "name": "Spain",
+      "count": 2
+    },
+    {
+      "name": "South Korea",
+      "count": 2
+    },
+    {
+      "name": "France",
+      "count": 2
+    },
+    {
+      "name": "Australia",
+      "count": 2
+    },
+    {
+      "name": "Germany",
+      "count": 1
+    }
+  ],
+  "releaseTrend": [
+    {
+      "year": 2019,
+      "movies": 2,
+      "tvShows": 0,
+      "total": 2
+    },
+    {
+      "year": 2020,
+      "movies": 1,
+      "tvShows": 2,
+      "total": 3
+    },
+    {
+      "year": 2021,
+      "movies": 3,
+      "tvShows": 1,
+      "total": 4
+    },
+    {
+      "year": 2022,
+      "movies": 3,
+      "tvShows": 2,
+      "total": 5
+    },
+    {
+      "year": 2023,
+      "movies": 3,
+      "tvShows": 2,
+      "total": 5
+    },
+    {
+      "year": 2024,
+      "movies": 3,
+      "tvShows": 3,
+      "total": 6
+    }
+  ],
+  "ratings": [
+    {
+      "rating": "TV-14",
+      "count": 8
+    },
+    {
+      "rating": "PG-13",
+      "count": 5
+    },
+    {
+      "rating": "PG",
+      "count": 4
+    },
+    {
+      "rating": "TV-MA",
+      "count": 3
+    },
+    {
+      "rating": "R",
+      "count": 3
+    },
+    {
+      "rating": "TV-PG",
+      "count": 2
+    }
+  ],
+  "topTitles": [
+    {
+      "title": "Delta Seven",
+      "type": "Movie",
+      "country": "United States",
+      "releaseYear": 2022,
+      "viewsMillions": 31.2,
+      "completionRate": 0.76,
+      "genres": [
+        "Action",
+        "Thriller"
+      ]
+    },
+    {
+      "title": "The Last Lantern",
+      "type": "Movie",
+      "country": "Japan",
+      "releaseYear": 2020,
+      "viewsMillions": 27.8,
+      "completionRate": 0.82,
+      "genres": [
+        "Action",
+        "Fantasy"
+      ]
+    },
+    {
+      "title": "North Star Borough",
+      "type": "TV Show",
+      "country": "United States",
+      "releaseYear": 2020,
+      "viewsMillions": 26.7,
+      "completionRate": 0.61,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ]
+    },
+    {
+      "title": "Neon Cartographers",
+      "type": "TV Show",
+      "country": "South Korea",
+      "releaseYear": 2024,
+      "viewsMillions": 24.5,
+      "completionRate": 0.81,
+      "genres": [
+        "Adventure",
+        "Animation"
+      ]
+    },
+    {
+      "title": "Line Change",
+      "type": "Movie",
+      "country": "United States",
+      "releaseYear": 2024,
+      "viewsMillions": 23.6,
+      "completionRate": 0.86,
+      "genres": [
+        "Sports",
+        "Drama"
+      ]
+    },
+    {
+      "title": "Harbor Lines",
+      "type": "TV Show",
+      "country": "United Kingdom",
+      "releaseYear": 2022,
+      "viewsMillions": 22.1,
+      "completionRate": 0.64,
+      "genres": [
+        "Drama",
+        "Crime"
+      ]
+    },
+    {
+      "title": "Signal Room",
+      "type": "TV Show",
+      "country": "United Kingdom",
+      "releaseYear": 2022,
+      "viewsMillions": 21.5,
+      "completionRate": 0.66,
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ]
+    },
+    {
+      "title": "Double Exposure",
+      "type": "Movie",
+      "country": "France",
+      "releaseYear": 2023,
+      "viewsMillions": 20.4,
+      "completionRate": 0.68,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ]
+    }
+  ]
+}

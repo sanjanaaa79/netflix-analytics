@@ -1,0 +1,13 @@
+subscription_id,user_id,plan_name,monthly_price,start_date,end_date,status
+sub001,u001,Premium,19.99,2023-01-12,,active
+sub002,u002,Mobile,6.99,2023-02-03,,active
+sub003,u003,Standard,15.49,2023-02-19,2024-05-01,cancelled
+sub004,u004,Standard,15.49,2023-03-11,,active
+sub005,u005,Premium,19.99,2023-03-24,,active
+sub006,u006,Mobile,6.99,2023-04-06,2024-03-28,cancelled
+sub007,u007,Standard,15.49,2023-04-18,,active
+sub008,u008,Mobile,6.99,2023-05-01,,active
+sub009,u009,Premium,19.99,2023-05-20,,active
+sub010,u010,Standard,15.49,2023-06-02,,active
+sub011,u011,Mobile,6.99,2023-06-15,2024-04-10,cancelled
+sub012,u012,Premium,19.99,2023-07-08,,active

@@ -1,0 +1,13 @@
+user_id,signup_date,country,age_group,device_preference
+u001,2023-01-12,United States,25-34,Smart TV
+u002,2023-02-03,India,18-24,Mobile
+u003,2023-02-19,United Kingdom,35-44,Laptop
+u004,2023-03-11,Canada,25-34,Tablet
+u005,2023-03-24,Japan,45-54,Smart TV
+u006,2023-04-06,Spain,18-24,Mobile
+u007,2023-04-18,Germany,35-44,Laptop
+u008,2023-05-01,South Korea,25-34,Mobile
+u009,2023-05-20,France,45-54,Smart TV
+u010,2023-06-02,Australia,25-34,Smart TV
+u011,2023-06-15,Mexico,18-24,Mobile
+u012,2023-07-08,Singapore,35-44,Laptop

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix Analytics Data Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Streaming intelligence</p>
+        <h1>Netflix Analytics Data Platform</h1>
+      </div>
+      <div class="status">
+        <span class="dot"></span>
+        <span id="generatedAt">Loading data</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="kpi-grid" id="kpis"></section>
+
+      <section class="layout">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>Release Trend</h2>
+            <span>Movies vs TV shows</span>
+          </div>
+          <div class="trend" id="releaseTrend"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Content Mix</h2>
+            <span>Catalog split</span>
+          </div>
+          <div class="donut-wrap">
+            <div class="donut" id="contentDonut"></div>
+            <div id="contentLegend" class="legend"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="layout three">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Top Genres</h2>
+            <span>By title count</span>
+          </div>
+          <div class="bars" id="genres"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Countries</h2>
+            <span>Catalog origin</span>
+          </div>
+          <div class="bars" id="countries"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Ratings</h2>
+            <span>Audience category</span>
+          </div>
+          <div class="ratings" id="ratings"></div>
+        </article>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head">
+          <h2>Top Performing Titles</h2>
+          <span>Ranked by views</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Country</th>
+                <th>Year</th>
+                <th>Views</th>
+                <th>Completion</th>
+              </tr>
+            </thead>
+            <tbody id="topTitles"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

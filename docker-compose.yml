@@ -1,0 +1,65 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: netflix-postgres
+    environment:
+      POSTGRES_DB: netflix_analytics
+      POSTGRES_USER: netflix
+      POSTGRES_PASSWORD: netflix
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U netflix -d netflix_analytics"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: netflix-api
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: netflix_analytics
+      POSTGRES_USER: netflix
+      POSTGRES_PASSWORD: netflix
+    ports:
+      - "8011:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  airflow:
+    image: apache/airflow:2.9.3-python3.12
+    container_name: netflix-airflow
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://netflix:netflix@postgres:5432/netflix_analytics
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: netflix_analytics
+      POSTGRES_USER: netflix
+      POSTGRES_PASSWORD: netflix
+      PYTHONPATH: /opt/airflow/project/src
+    command: >
+      bash -c "pip install -r /opt/airflow/project/requirements.txt &&
+      airflow db migrate;
+      airflow users create --username admin --password admin --firstname Data --lastname Engineer --role Admin --email admin@example.com || true;
+      airflow scheduler & exec airflow webserver"
+    ports:
+      - "18080:8080"
+    volumes:
+      - ./:/opt/airflow/project
+      - ./dags:/opt/airflow/dags
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

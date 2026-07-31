@@ -1,0 +1,19 @@
+activity_id,user_id,show_id,watched_at,watch_minutes,device_type,completed
+a001,u001,s10,2024-06-18 20:14:00,109,Smart TV,true
+a002,u002,s13,2024-06-19 21:02:00,93,Mobile,true
+a003,u003,s2,2024-06-20 18:35:00,44,Laptop,false
+a004,u004,s4,2024-06-21 19:11:00,36,Tablet,false
+a005,u005,s5,2024-06-22 22:40:00,132,Smart TV,true
+a006,u006,s7,2024-06-23 17:25:00,96,Mobile,true
+a007,u007,s8,2024-06-24 20:05:00,74,Laptop,false
+a008,u008,s9,2024-06-25 21:30:00,48,Mobile,true
+a009,u009,s18,2024-06-26 22:15:00,83,Smart TV,false
+a010,u010,s21,2024-06-27 19:50:00,99,Smart TV,true
+a011,u011,s15,2024-06-28 18:20:00,112,Mobile,true
+a012,u012,s23,2024-06-29 21:05:00,88,Laptop,true
+a013,u001,s1,2024-07-01 20:30:00,90,Smart TV,false
+a014,u002,s19,2024-07-02 22:01:00,41,Mobile,true
+a015,u004,s17,2024-07-03 19:15:00,115,Tablet,true
+a016,u005,s20,2024-07-04 21:45:00,107,Smart TV,true
+a017,u008,s24,2024-07-05 20:00:00,52,Mobile,false
+a018,u010,s25,2024-07-06 22:10:00,117,Smart TV,true

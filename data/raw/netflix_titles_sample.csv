@@ -1,0 +1,26 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description,views_millions,completion_rate
+s1,Movie,Midnight Circuit,Ava Sharma,"Rian Cole, Mira James",United States,2024-01-12,2023,PG-13,118 min,"Sci-Fi, Thriller","A courier discovers a city-wide signal hiding in plain sight.",18.4,0.71
+s2,TV Show,Harbor Lines,Noah Bennett,"Leah Stone, Arjun Rao",United Kingdom,2024-02-18,2022,TV-MA,3 Seasons,"Drama, Crime","Detectives trace a smuggling network through a coastal town.",22.1,0.64
+s3,Movie,Saffron Skies,Isha Menon,"Dev Patel, Naina Roy",India,2023-11-04,2021,PG,104 min,"Romance, Drama","Two pilots reunite after years apart during monsoon season.",15.7,0.78
+s4,TV Show,Quantum Pantry,Luca Romano,"Elena Park, Mateo Diaz",Canada,2024-04-09,2024,TV-14,1 Season,"Comedy, Sci-Fi","Roommates discover their refrigerator bends time.",12.3,0.69
+s5,Movie,The Last Lantern,Hiro Tanaka,"Kenji Sato, Amara Wells",Japan,2022-07-21,2020,R,132 min,"Action, Fantasy","A retired guardian returns when an ancient light disappears.",27.8,0.82
+s6,TV Show,Boardroom Blue,Grace Miller,"Sophia Chen, Marcus Hale",United States,2024-05-16,2023,TV-14,2 Seasons,"Drama","An analyst exposes power games inside a media empire.",19.6,0.58
+s7,Movie,Cafe Meridian,Clara Gomez,"Ana Flores, Ben Hart",Spain,2023-08-13,2019,PG,96 min,"Comedy, Romance","A tiny cafe becomes the center of an unlikely friendship.",9.4,0.74
+s8,Movie,Cold Archive,Owen Price,"Mila Novak, Sam Reed",Germany,2023-12-02,2022,TV-MA,121 min,"Documentary, Crime","Investigators reopen a case from a forgotten mountain village.",16.8,0.67
+s9,TV Show,Neon Cartographers,Kim Seo-jun,"Ji-min Park, Daniel Wu",South Korea,2024-03-22,2024,TV-14,1 Season,"Adventure, Animation","Young mapmakers race across a glowing future Seoul.",24.5,0.81
+s10,Movie,Delta Seven,Maya Brooks,"Chris Vale, Priya Nair",United States,2022-10-31,2022,PG-13,109 min,"Action, Thriller","A rescue team faces impossible odds during a blackout.",31.2,0.76
+s11,TV Show,Atlas Kitchen,Marco Ricci,"Lina Moreau, Tomas Silva",France,2023-06-11,2021,TV-PG,4 Seasons,"Reality, Food","Chefs travel the world rebuilding family recipes.",13.9,0.72
+s12,Movie,Silent Orchard,Ella Woods,"June Kim, Peter Shaw",Australia,2024-06-05,2024,R,101 min,"Horror, Mystery","A botanist notices whispers coming from a deserted farm.",17.2,0.62
+s13,Movie,Beyond the Subtitles,Rahul Kapoor,"Tara Singh, Omar Khan",India,2024-01-29,2023,TV-14,93 min,"Documentary","Creators explain how global stories travel across languages.",11.6,0.84
+s14,TV Show,North Star Borough,Emma Scott,"Wyatt Lane, Zoe Brooks",United States,2023-09-20,2020,TV-MA,5 Seasons,"Drama, Mystery","A mayor's disappearance unsettles an isolated Alaskan town.",26.7,0.61
+s15,Movie,Paper Moon Hotel,Sofia Reyes,"Camila Torres, Ivan Ruiz",Mexico,2024-02-26,2024,PG-13,112 min,"Drama, Romance","Guests at an old hotel confront the decisions that shaped them.",14.8,0.73
+s16,TV Show,Signal Room,Nadine Clarke,"Ariel Ford, Lucas Gray",United Kingdom,2022-12-19,2022,TV-14,2 Seasons,"Thriller, Mystery","A crisis hotline worker hears calls from the future.",21.5,0.66
+s17,Movie,Orbiting Home,Theo Jameson,"Nora Li, Elias Cruz",Canada,2023-03-15,2021,PG,115 min,"Family, Sci-Fi","A family tries to return to Earth after a space station accident.",10.2,0.79
+s18,Movie,Double Exposure,Marie Laurent,"Chloe Bernard, Adam Klein",France,2024-05-02,2023,R,126 min,"Thriller, Crime","A photographer finds evidence of a crime in her negatives.",20.4,0.68
+s19,TV Show,Tiny Empires,Priya Desai,"Kabir Mehta, Sara Khan",India,2024-04-28,2024,TV-PG,1 Season,"Reality, Business","Entrepreneurs compete to scale small-town ideas.",18.9,0.70
+s20,Movie,The Glass Harbor,Yuki Mori,"Hana Ito, Lewis King",Japan,2023-05-07,2021,PG-13,107 min,"Drama, Mystery","A diver searches for answers beneath a floating city.",12.7,0.75
+s21,Movie,Line Change,Eric Walsh,"Tom Blake, Imani Cross",United States,2024-06-17,2024,PG,99 min,"Sports, Drama","A backup player leads a team through an impossible season.",23.6,0.86
+s22,TV Show,Market of Dreams,Lucia Alvarez,"Rosa Vega, Diego Marin",Spain,2024-03-04,2023,TV-14,3 Seasons,"Fantasy, Drama","A night market sells memories to people who need a second chance.",16.1,0.65
+s23,Movie,Byte Club,Nathan Wong,"Ivy Chen, Omar Silva",Singapore,2023-10-10,2022,TV-14,88 min,"Comedy, Technology","Students build an app that accidentally predicts school gossip.",8.9,0.77
+s24,TV Show,After the Rain,Min-joo Lee,"Soo-jin Han, Eric Nam",South Korea,2022-09-08,2020,TV-14,2 Seasons,"Romance, Drama","Neighbors reconnect while rebuilding after a flood.",14.3,0.69
+s25,Movie,Canyon Run,Jack Turner,"Mason Lee, Vera Cole",Australia,2023-07-18,2019,PG-13,117 min,"Action, Adventure","A guide must lead tourists out of a collapsing canyon.",19.1,0.72
