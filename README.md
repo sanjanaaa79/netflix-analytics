@@ -123,11 +123,4 @@ https://bunnysunny24.github.io/Netflix-Analytics-Data-Platform/dashboard/
 Use PostgreSQL as the data source and connect to the `mart` schema views. See
 `docs/powerbi.md` for suggested pages, measures, and visuals.
 
-## Resume Alignment
 
-This project demonstrates:
-
-- Normalized PostgreSQL warehouse design for streaming, subscription, and user activity data
-- Automated Python and Airflow ETL from raw sources into analytical facts and dimensions
-- FastAPI endpoints for KPI, engagement, revenue, retention, and content performance metrics
-- Power BI-ready mart views using SQL transformations and aggregations
